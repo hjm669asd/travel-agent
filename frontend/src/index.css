@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.markdown-body {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-body h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1f2937;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 8px;
+}
+
+.markdown-body h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: #4f46e5;
+}
+
+.markdown-body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #6366f1;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.markdown-body th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  border: none;
+  border-top: 1px dashed #e5e7eb;
+  margin: 16px 0;
+}
+
+.markdown-body blockquote {
+  background-color: #f0f9ff;
+  border-left: 4px solid #3b82f6;
+  padding: 8px 16px;
+  margin: 12px 0;
+  border-radius: 0 8px 8px 0;
+}
